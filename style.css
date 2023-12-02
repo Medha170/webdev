@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+/*Sytling nav bar*/
+.Navigation-Bar {
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.website-name {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.dot {
+    margin-left: 0.2rem;
+    color:red;
+}
+
+.Navigation-menus ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.Navigation-menus li {
+    margin-right: 10px;
+}
+
+.Nav-tab {
+    text-decoration: none;
+    color: dimgrey;
+    padding: 0.5rem;
+}
+
+.Nav-tab:hover{
+    text-decoration: underline solid red;
+    color:black;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+}
+
+/*Styling Home-tab*/
+.Home-tab {
+    text-align: flex-start;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background-color: goldenrod;
+}
+
+.Heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.para p {
+    color: #555;
+    text-align: start;
+}
+
+.book-a-table {
+    align-self: start;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    background-color: red;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.watch-video {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+
+.watch-video {
+    font-size: 1.5rem;
+    background-color: goldenrod;
+    color: red;
+    border: 1px solid red;
+    border-radius:100%;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+}
+
+.btn>label{
+    align-items: center;
+}
+
+.image img {
+    width: 25vw;
+    height: 25vh;
+    margin-top: 2rem;
+    margin-left:30rem;
+}
+
+/*Styling the About us Section*/
+.About-us-Heading{
+    text-align:center;
+}
+.h1-container{
+    display:flex;
+    justify-content: center;
+    gap:5px;
+}
+.image1{
+    position:relative;
+    display:inline-block;
+}
+.text-in-image1{
+    position:absolute;
+    bottom:10%;
+    left:50%;
+    background-color: white;
+}
+
+.book{
+    display:block;
+    text-align:center;
+    font-weight: bold;
+}
+.number{
+    text-align: center;
+    display:block;
+    font-weight:bold;
+    color: red;
+}
